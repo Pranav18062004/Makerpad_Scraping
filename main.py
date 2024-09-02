@@ -12,11 +12,20 @@ def tut_links(soup):
     posts = soup.find_all("div", class_="posts-item w-dyn-item")
     links_for_tut = []
     for post in posts:
-        links_for_tut.append(post.find("a")["href"])
+        tutorial_tag = post.find("div", class_="tag-type tutorial")
+        if tutorial_tag and tutorial_tag.text == "Tutorial":
+            links_for_tut.append(post.find("a")["href"])
     return links_for_tut
 
 
+def tut_link_file(html, main_url):
+    link_list = tut_links(html)
+    with open(file="Makerpad_Scraping\\posts\\tut_links.txt", mode="w") as f:
+        for index, link in enumerate(link_list):
+            f.write(f"{index + 1}: {main_url}{link}\n")
+
+
 url = "https://makerpad.zapier.com/?tags=tutorials"
+main_url = "https://makerpad.zapier.com"
 html = get_html(url)
-tutorial_link_list = tut_links(html)
-print(tutorial_link_list)
+tut_link_file(html, main_url)
