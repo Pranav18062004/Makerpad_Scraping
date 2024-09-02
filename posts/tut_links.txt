@@ -1,0 +1,15 @@
+1: https://makerpad.zapier.com/posts/how-to-automate-inquiries-using-airtable-and-zapier
+2: https://makerpad.zapier.com/posts/how-to-build-a-crazy-efficient-consulting-business-with-outseta-carrd
+3: https://makerpad.zapier.com/posts/how-to-build-a-no-code-job-board
+4: https://makerpad.zapier.com/posts/how-to-build-a-2-sided-marketplace-using-softr
+5: https://makerpad.zapier.com/posts/how-to-automate-a-stripe-payment-link-with-zapier
+6: https://makerpad.zapier.com/posts/how-to-use-the-website-builder-in-super
+7: https://makerpad.zapier.com/posts/how-to-create-a-membership-community-using-gumroad
+8: https://makerpad.zapier.com/posts/how-to-build-an-automated-swag-store-with-shopify-and-printful
+9: https://makerpad.zapier.com/posts/dynamically-generate-google-docs
+10: https://makerpad.zapier.com/posts/create-an-onboarding-email-sequence-and-automation-in-convertkit
+11: https://makerpad.zapier.com/posts/create-a-social-content-scheduling-workflow
+12: https://makerpad.zapier.com/posts/building-a-one-page-website-fast-with-carrd-co
+13: https://makerpad.zapier.com/posts/automated-airtable-sales-notifications-in-zapier
+14: https://makerpad.zapier.com/posts/how-to-build-and-automate-a-job-board-with-webflow-and-airtable
+15: https://makerpad.zapier.com/posts/how-to-start-an-online-store-with-webflow
