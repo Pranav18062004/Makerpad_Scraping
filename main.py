@@ -25,7 +25,6 @@ def tut_link_file(html, main_url):
             f.write(f"{index + 1}: {main_url}{link}\n")
 
 
-url = "https://makerpad.zapier.com/?tags=tutorials"
 main_url = "https://makerpad.zapier.com"
-html = get_html(url)
+html = get_html(main_url)
 tut_link_file(html, main_url)
